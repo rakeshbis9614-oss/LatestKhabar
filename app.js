@@ -933,6 +933,23 @@ document.addEventListener('DOMContentLoaded', () => {
         header.classList.toggle('scrolled', window.scrollY > 10);
     }, { passive: true });
 
+    // Logo click routes to home
+    const headerLogo = document.getElementById('header-logo-link');
+    if (headerLogo) {
+        headerLogo.addEventListener('click', (e) => {
+            e.preventDefault();
+            App.saveScrollPosition(window.location.search || 'home');
+            window.history.pushState(null, '', '/');
+            Router();
+        });
+    }
+
+    // Dynamic footer year
+    const footerYear = document.getElementById('footer-year');
+    if (footerYear) {
+        footerYear.textContent = new Date().getFullYear();
+    }
+
     // Initial route
     Router();
 
