@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hi" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - पृष्ठ नहीं मिला | Latest Khabar</title>
+    <meta name="description" content="यह पृष्ठ मौजूद नहीं है। Latest Khabar पर ताज़ा खबरें पढ़ें।">
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        (function() {
+            var t = localStorage.getItem('theme') || 'light';
+            document.documentElement.classList.remove('light', 'dark');
+            document.documentElement.classList.add(t);
+        })();
+    </script>
+</head>
+<body>
+    <header id="main-header" class="newsroom-header">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="/" class="header-logo" aria-label="Latest Khabar Home">
+                    <img src="./Latest Khabar Logo.webp" alt="Latest Khabar Logo" class="logo-img" height="48" loading="eager">
+                </a>
+            </div>
+            <div class="header-actions">
+                <button id="theme-toggle" aria-label="थीम बदलें" class="icon-btn">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="main-container">
+            <div class="error-container">
+                <div class="error-content">
+                    <h1 class="error-code">404</h1>
+                    <p class="error-message">यह पृष्ठ मौजूद नहीं है। कृपया जांचें कि URL सही है या होम पेज पर लौटें।</p>
+                    <a href="/" class="error-btn">होम पर लौटें</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="premium-footer">
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p class="footer-copyright">2026 Latest Khabar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var t = document.getElementById('theme-toggle');
+        if (t) t.addEventListener('click', function() {
+            var d = document.documentElement.classList.toggle('dark');
+            document.documentElement.classList.toggle('light', !d);
+            localStorage.setItem('theme', d ? 'dark' : 'light');
+        });
+    </script>
+</body>
+</html>

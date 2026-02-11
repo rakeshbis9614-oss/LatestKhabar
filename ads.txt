@@ -1,0 +1,4 @@
+# ads.txt - Authorized Digital Sellers for latestkhabar.xyz
+# Replace ca-pub-XXXXXXXXXXXXXXXX with your actual AdSense Publisher ID
+
+google.com, ca-pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

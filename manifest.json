@@ -1,74 +1,46 @@
 {
   "name": "Latest Khabar - Hindi News Portal",
   "short_name": "Latest Khabar",
-  "description": "Breaking News in Hindi - Latest Khabar delivers authentic, up-to-date news on politics, business, cricket, technology, entertainment and more. Your trusted source for Hindi news.",
+  "description": "Breaking News in Hindi - Latest Khabar delivers authentic, up-to-date news on politics, business, cricket, technology, entertainment and more.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFFFFF",
-  "theme_color": "#00A36C",
+  "theme_color": "#DC2626",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%2300A36C' width='192' height='192'/><text x='50%' y='50%' font-size='80' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>लक</text></svg>",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23DC2626' width='192' height='192' rx='32'/><text x='50%25' y='50%25' font-size='80' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>LK</text></svg>",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%2300A36C' width='512' height='512'/><text x='50%' y='50%' font-size='250' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>लक</text></svg>",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23DC2626' width='512' height='512' rx='64'/><text x='50%25' y='50%25' font-size='200' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>LK</text></svg>",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%2300A36C' width='192' height='192' rx='45'/><text x='50%' y='50%' font-size='80' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>लक</text></svg>",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23DC2626' width='192' height='192' rx='45'/><text x='50%25' y='50%25' font-size='80' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>LK</text></svg>",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "maskable"
     }
   ],
   "categories": ["news"],
-  "screenshots": [
-    {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23FFFFFF' width='540' height='720'/><rect fill='%2300A36C' width='540' height='80'/><text x='270' y='45' font-size='32' fill='white' text-anchor='middle' font-weight='bold'>Latest Khabar</text></svg>",
-      "sizes": "540x720",
-      "type": "image/svg+xml",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 768'><rect fill='%23FFFFFF' width='1024' height='768'/><rect fill='%2300A36C' width='1024' height='80'/><text x='512' y='45' font-size='48' fill='white' text-anchor='middle' font-weight='bold'>Latest Khabar</text></svg>",
-      "sizes": "1024x768",
-      "type": "image/svg+xml",
-      "form_factor": "wide"
-    }
-  ],
   "shortcuts": [
     {
       "name": "Latest News",
       "short_name": "News",
       "description": "Read the latest breaking news",
-      "url": "/?shortcut=news",
-      "icons": [
-        {
-          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%2300A36C' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='40' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>न</text></svg>",
-          "sizes": "96x96",
-          "type": "image/svg+xml"
-        }
-      ]
+      "url": "/"
     },
     {
-      "name": "Trending Today",
+      "name": "Trending",
       "short_name": "Trending",
-      "description": "See trending topics and stories",
-      "url": "/?shortcut=trending",
-      "icons": [
-        {
-          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%2300A36C' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='40' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>ट</text></svg>",
-          "sizes": "96x96",
-          "type": "image/svg+xml"
-        }
-      ]
+      "description": "See trending stories",
+      "url": "/?trending=true"
     }
   ]
 }
