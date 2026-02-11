@@ -1,0 +1,75 @@
+
+{
+  "name": "Latest Khabar - Premium Hindi News Portal",
+  "version": "5.0.0",
+  "description": "Enterprise-grade Hardened Vanilla JS Single Page Application (SPA) with Firebase integration. Real-time news portal featuring atomic view tracking, newsroom-grade SEO schemas, DOMPurify security hardening, and optimized performance for high-traffic scenarios.",
+  "author": "Shivi's Digital Labs",
+  "license": "Proprietary",
+  "environment": "Production",
+  "homepage": "https://latestkhabar.xyz",
+  "lastRefactored": "2026-02-11",
+  "seoDefaults": {
+    "defaultLocale": "hi_IN",
+    "region": "West Bengal, India",
+    "brandColor": "#F05A28",
+    "language": "Hindi",
+    "langAlternate": "English"
+  },
+  "technologies": {
+    "frontend": "Vanilla JavaScript (ES6+)",
+    "styling": "Tailwind CSS",
+    "backend": "Firebase Firestore",
+    "authentication": "Firebase Auth",
+    "internationalization": "i18n",
+    "sanitization": "DOMPurify 3.0.6",
+    "caching": "LRU Map-based Cache"
+  },
+  "features": [
+    "Centralized State Management",
+    "Async Race-Condition Protection",
+    "Event Delegation Router",
+    "Atomic View Counter (Firestore increment)",
+    "JSON-LD NewsArticle Schema",
+    "Scroll Position Restoration",
+    "LRU Cache (100-item limit)",
+    "DOMPurify Security Hardening",
+    "Hardened Content Security Policy",
+    "Dark/Light Theme Support",
+    "Offline Graceful Degradation",
+    "Service Worker Integration",
+    "Progressive Web App (PWA)",
+    "Mobile Responsive Design"
+  ],
+  "securityFeatures": [
+    "CSP: inline-script blocking",
+    "URL validation (http/https only)",
+    "DOMPurify tag whitelist",
+    "Firestore security rules",
+    "Admin-only write operations",
+    "Public atomic-increment-only views",
+    "HTTPS enforcement"
+  ],
+  "performanceTargets": {
+    "lighthouceScore": ">85",
+    "largestContentfulPaint": "<2.5s",
+    "firstInputDelay": "<100ms",
+    "cumulativeLayoutShift": "<0.1",
+    "cacheMemoryLimit": "<5MB",
+    "maxCacheItems": 100
+  },
+  "seoOptimization": {
+    "jsonLdSchema": "NewsArticle",
+    "schemaFields": 11,
+    "metaTagsEnabled": true,
+    "openGraphEnabled": true,
+    "twitterCardEnabled": true,
+    "sitemapIncluded": true,
+    "robotsFileIncluded": true
+  },
+  "analytics": {
+    "framework": "Google Analytics 4 ready",
+    "events": ["page_view", "article_view", "article_shared", "theme_toggled", "offline_detected", "app_error"],
+    "mixpanelReady": true,
+    "customEventTracking": true
+  }
+}

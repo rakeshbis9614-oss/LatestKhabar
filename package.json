@@ -1,0 +1,40 @@
+{
+  "name": "latest-khabar-portal",
+  "private": true,
+  "version": "5.1.0",
+  "type": "module",
+  "description": "Enterprise-grade, hardened news portal for latestkhabar.xyz. Optimized for AdSense and Google Discover.",
+  "author": "Latest Khabar Team",
+  "homepage": "https://latestkhabar.xyz",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --minify terser",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.mjs",
+    "format": "prettier --write \"**/*.{js,jsx,json,html,css}\""
+  },
+  "dependencies": {
+    "firebase": "^11.2.0",
+    "dompurify": "^3.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.0"
+  },
+  "keywords": [
+    "news",
+    "hindi",
+    "india",
+    "firebase",
+    "vanilla-js",
+    "spa",
+    "pwa",
+    "performance",
+    "adsense",
+    "seo"
+  ],
+  "license": "Proprietary"
+}

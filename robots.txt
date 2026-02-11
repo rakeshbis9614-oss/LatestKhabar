@@ -1,0 +1,94 @@
+# robots.txt for Latest Khabar - latestkhabar.xyz
+# Optimized for Google News, Bing News, and general crawlers
+
+# Default rules for all web crawlers
+User-agent: *
+Allow: /
+Allow: /article/
+Allow: /about.html
+Allow: /contact.html
+Allow: /privacy-policy.html
+Allow: /editorial-policy.html
+
+# Disallow private admin area
+Disallow: /admin/
+
+# Rules for Google crawler
+User-agent: Googlebot
+Allow: /
+Allow: /article/
+Allow: /news/
+Crawl-delay: 0
+
+# Rules for Google News crawler
+User-agent: Googlebot-News
+Allow: /
+Allow: /article/
+Allow: /news/
+Crawl-delay: 0
+
+# Rules for Bing crawler
+User-agent: Bingbot
+Allow: /
+Allow: /article/
+Allow: /news/
+Crawl-delay: 1
+
+# Rules for Bing News crawler
+User-agent: Bingbot-Mobile
+Allow: /
+Allow: /article/
+Allow: /news/
+Crawl-delay: 1
+
+# Rules for Yahoo Media crawler
+User-agent: Yahoo!-Image-Crawler
+Allow: /
+Allow: /article/
+Crawl-delay: 1
+
+# Rules for Yandex crawler (Popular in CIS countries)
+User-agent: YandexBot
+Allow: /
+Allow: /article/
+Crawl-delay: 1
+
+# Rules for DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Rules for social media crawlers
+User-agent: facebookexternalhit/[0-9]
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Telegram
+Allow: /
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://latestkhabar.xyz/sitemap.xml
+Sitemap: https://latestkhabar.xyz/sitemap-news.xml
+
+# Directive for crawl rate and request interval
+Request-rate: 30/1m
+
+# Re-visit after
+Re-visit-after: 1d
